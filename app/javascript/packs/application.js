@@ -37,3 +37,10 @@ $(document).on('turbolinks:load', function() {
 import "@fortawesome/fontawesome-free/js/all";
 
 import Chart from 'chart.js/dist/Chart';
+
+//import dt from 'datatables.net/js/jquery.dataTables';
+import 'datatables.net-bs4/js/dataTables.bootstrap4';
+
+$(document).ready(function() {
+    $('#example').DataTable();
+} );
