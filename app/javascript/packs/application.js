@@ -35,3 +35,5 @@ $(document).on('turbolinks:load', function() {
 });
 
 import "@fortawesome/fontawesome-free/js/all";
+
+import Chart from 'chart.js/dist/Chart';
