@@ -19,6 +19,7 @@ require("channels")
 import $ from 'jquery';
 import 'bootstrap/dist/js/bootstrap';
 
+
 $(document).on('turbolinks:load', function() {
   $('body').tooltip({
     selector: '[data-toggle="tooltip"]',
@@ -32,3 +33,5 @@ $(document).on('turbolinks:load', function() {
     trigger: 'hover',
   });
 });
+
+import "@fortawesome/fontawesome-free/js/all";
