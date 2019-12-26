@@ -37,7 +37,7 @@ $(document).on('turbolinks:load', function() {
   });
 });
 
-import "@fortawesome/fontawesome-free/js/all";
+//import "@fortawesome/fontawesome-free/js/all";
 
 import Chart from 'chart.js/dist/Chart';
 
@@ -45,8 +45,5 @@ import Chart from 'chart.js/dist/Chart';
 import 'datatables.net-bs4/js/dataTables.bootstrap4';
 
 //jquery.easing 
-import "jquery.easing/jquery.easing.js"
+import "jquery.easing/jquery.easing.js";
 
-$(document).ready(function() {
-    $('#example').DataTable();
-} );
