@@ -17,6 +17,9 @@ require("channels")
 // const imagePath = (name) => images(name, true)
 
 import $ from 'jquery';
+global.$ = $;
+global.jQuery = $;
+
 import 'bootstrap/dist/js/bootstrap';
 
 
@@ -40,6 +43,9 @@ import Chart from 'chart.js/dist/Chart';
 
 //import dt from 'datatables.net/js/jquery.dataTables';
 import 'datatables.net-bs4/js/dataTables.bootstrap4';
+
+//jquery.easing 
+import "jquery.easing/jquery.easing.js"
 
 $(document).ready(function() {
     $('#example').DataTable();
