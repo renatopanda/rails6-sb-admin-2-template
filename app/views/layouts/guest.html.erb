@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title><%= content_for?(:html_title) ? yield(:html_title) : "SB Admin 2" %></title>
+
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_pack_tag 'styles', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+</head>
+
+<body class="bg-gradient-primary">
+
+  <div class="container">
+
+    <%= yield %>
+
+  </div>
+
+  	  <%= javascript_pack_tag 'sb-admin-2', 'data-turbolinks-track': 'reload' %>
+</body>
+
+</html>

@@ -19,6 +19,8 @@ require("channels")
 import $ from 'jquery';
 global.$ = $;
 global.jQuery = $;
+//jquery.easing 
+import "jquery.easing/jquery.easing";
 
 import 'bootstrap/dist/js/bootstrap';
 
@@ -41,9 +43,8 @@ $(document).on('turbolinks:load', function() {
 
 import Chart from 'chart.js/dist/Chart';
 
-//import dt from 'datatables.net/js/jquery.dataTables';
+import dt from 'datatables.net/js/jquery.dataTables';
 import 'datatables.net-bs4/js/dataTables.bootstrap4';
 
-//jquery.easing 
-import "jquery.easing/jquery.easing.js";
+
 
